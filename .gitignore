@@ -1,0 +1,24 @@
+### Ignore all Files
+*~
+/*
+### Ignore files from MAC
+.DS_Store
+### Ignore sass cache and node modules
+.sass-cache
+### Ignore VSCode settings
+.vscode
+
+### Except git ignore file
+!/.gitignore
+
+### Except "dev files"
+!/fonts
+!/images
+!/styles
+!/scripts
+!/favicon
+!index.html
+
+### Except NPM and Gulp
+!gulpfile.js
+!package.json
