@@ -1,61 +1,77 @@
 body {
 	margin: 0;
+	background-color: red;
 }
 
 .flex-parent {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color: red;
 }
 
 .page {
 	height: 100vh;
 	justify-content: space-between;
-	background-color: white;
+	background-color: red;
+
 }
 
 .column {
 	flex-direction: column;
 }
 
-.column--1 {
-	width: calc(26% - 8px);
+.column--26 {
+	width: calc(15% - 8px);
 }
 
-.column--2 {
-	width: calc(28% - 8px);
+.column--28 {
+	width: calc(25% - 8px);
 }
 
-.column--3 {
-	width: calc(46% - 8px);
+.column--46 {
+	width: calc(45% - 8px);
 }
 
 .column-block {
+	background-color: black;
 	width: 100%;
 }
 
 .column-block--15 {
 	height: calc(15% - 8px);
+	background-image: url("5.png");
+	background-size: 100%;
 }
 
 .column-block--25 {
-  height: calc(25% - 8px);
+	height: calc(25% - 8px);
+	background-image: url("1.png");
+	background-size: 100%;
 }
 
 .column-block--60 {
-  height: calc(60% - 8px);
+	height: calc(60% - 8px);
+	background-image: url("6.jpeg");
+	background-size: 100%;
 }
 
 .column-block--35 {
-  height: calc(35% - 6px);
+	height: calc(35% - 6px);
+	background-image: url("4.png");
+	background-size: 100%;
 }
 
 .column-block--65 {
 	height: calc(65% - 6px);
+	background-image: url("1.png");
+	background-size: 100%;
 }
 
 .column-block--half {
 	width: calc(50% - 6px);
+	background-image: url("3.png");
+	background-size: 100%;
 }
 
 .block-container {
@@ -81,4 +97,10 @@ body {
 
 .block-container__item--60 {
   width: calc(60% - 6px);
+}
+.column-block--e {
+	background-color: black;
+	width: 100%;
+	background-image: url("6.jpeg");
+	background-size:100%;
 }
