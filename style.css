@@ -9,7 +9,12 @@ body {
 #cloud2 {
 	    width: 208px;
 			height: 484px;
+}
 
+img{
+	height: auto;
+	max-width: 100%;
+	width: 100%;
 }
 .flex-parent {
   display: flex;
@@ -59,11 +64,18 @@ body {
 .column-block--25 {
   height: calc(25% - 8px);
 	background-color: #324767;
+	background-image:url("../../images/cloud1.JPG");
+	max-width: 100%;
+	width: 100%;
+
 }
 
 .column-block--60 {
   height: calc(60% - 8px);
 	background-color: #8398b3;
+	background-image:url("../../images/cloud2.JPG");
+	max-width: 100%;
+	width: 100%;
 }
 
 
