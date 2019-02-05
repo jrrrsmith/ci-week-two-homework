@@ -27,10 +27,15 @@ body {
 }
 
 .column--3 {
-	width: calc(46% - 8px);
+	width: calc(15% - 8px);
+}
+
+.column--4 {
+	width: calc(30% - 8px);
 }
 
 .column-block {
+	background-color: lightslategray;
 	width: 100%;
 }
 
@@ -52,6 +57,10 @@ body {
 
 .column-block--65 {
 	height: calc(65% - 6px);
+}
+
+.column-block--85 {
+	height: calc(85% - 8px);
 }
 
 .column-block--half {
@@ -82,3 +91,5 @@ body {
 .block-container__item--60 {
   width: calc(60% - 6px);
 }
+
+img {inline-size: inherit;}
